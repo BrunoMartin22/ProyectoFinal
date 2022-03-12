@@ -1,0 +1,29 @@
+%estilos-conocelos{
+    color: black;
+    font-size:'Cinzel', serif;
+}
+%separacion{
+    padding-top: 500px;
+}
+
+.origen-banda{
+    padding-left: 130px;
+    padding-right: 130px;
+    @extend %estilos-conocelos;
+    
+}
+@media screen and (min-width:320px) and (max-width:768px){
+    .origen-banda{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+.info-met{
+    @extend %estilos-conocelos;
+}
+.main-productos{
+    @extend %separacion;
+}
+.separacion-entradas{
+    @extend %separacion;
+}

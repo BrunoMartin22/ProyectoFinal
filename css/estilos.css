@@ -1,0 +1,287 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+/* fondo de la pagina */
+.body-index {
+  background: radial-gradient(circle, #4a4a4a 0%, #3d3d3d 21%, #2f2f2f 26%, #1d1d1d 35%); }
+
+.body-conocelos {
+  background-image: linear-gradient(to bottom, white 0%, #f6f6f6 27%, white 32%, #eeecec 40%, #7e7e7e 100%); }
+
+.body-disc {
+  background: linear-gradient(to bottom, black 0%, black 20%, #383838 26%, #6e6e6e 42%, #d4d2d2 60%); }
+
+/* fotos del header de las pags */
+.foto-inicio {
+  background-image: url(https://www.metallica.com/on/demandware.static/-/Sites-Metallica-Library/default/dwa8442759/images/homepage/home-hero-aftershock.jpg);
+  background-repeat: no-repeat;
+  padding-left: 0; }
+
+.foto-conocelos {
+  background-image: url(https://metallica-res.cloudinary.com/image/upload/f_auto,q_auto:best,c_fill,dpr_2.0,e_sharpen:60,g_auto:subject/v1/images/heroes/media/photos-header.jpg);
+  background-repeat: no-repeat; }
+
+.foto-somos {
+  background-image: url(https://www.metallica.com/dw/image/v2/BCPJ_PRD/on/demandware.static/-/Sites-Metallica-Library/default/dwd536fbc9/images/heroes/tour/tour-hero.jpg?sw=1920&sh=504&sm=cut&sfrm=jpg&q=95);
+  background-repeat: no-repeat; }
+
+.foto-productos {
+  background-image: url(https://www.metallica.com/on/demandware.static/-/Sites/default/dwc45f1b18/images/slot/store-hero_20190114.jpg);
+  background-repeat: no-repeat; }
+
+/* logos de las pags metallica */
+.logo-inicio {
+  text-align: center;
+  padding-top: 50%; }
+
+.logo-conocelos {
+  text-align: center;
+  padding-top: 15%; }
+
+/* carrousel */
+.carrousel-main {
+  padding-top: 5%; }
+
+/* nadvar y tarjetas */
+.dropdown-menu {
+  background-color: #E7E7E7; }
+
+p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Cinzel', serif; }
+
+.color-tarjetas {
+  background-color: #474554;
+  text-align: center;
+  margin-left: 3%;
+  margin-bottom: 3%; }
+
+h2 {
+  color: #09090b;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Cinzel', serif;
+  padding-top: 200px;
+  font-weight: bold; }
+
+/* remeras y guitarras pasar de pagina */
+.cambio-paginas {
+  margin-top: 150px;
+  padding-bottom: 100px; }
+
+footer {
+  margin: 0;
+  padding-top: 40px;
+  text-align: center; }
+  footer p {
+    color: #09090b;
+    font-family: "Cinzel", serif;
+    font-size: 20px;
+    font-weight: bold; }
+
+/* icono de spotify */
+.item-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+
+/* logo metallica */
+.logo-inicio {
+  text-align: center;
+  padding-top: 50%; }
+
+.logo-banner {
+  display: block;
+  margin: auto;
+  align-items: center; }
+
+h1 {
+  text-align: center;
+  font-family: 'Cinzel', serif; }
+
+/* img de las tarjetas del index */
+.img-tarjetas {
+  padding-top: 10px;
+  text-align: center; }
+
+.img-1 {
+  padding-top: 60px; }
+
+.img-2 {
+  padding-top: 35px; }
+
+.img-3 {
+  padding-top: 40px; }
+
+.m-disc {
+  padding-top: 400px; }
+
+/* tarjetas discografia */
+.tarjetas-disc {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap; }
+
+.sep-tarj {
+  margin-right: 20px; }
+
+/* colores nav */
+.color-g {
+  background-color: #232323; }
+
+.color-navc {
+  background-color: #E7E7E7; }
+
+/* contenedor de conocelos */
+.fondo-prueba {
+  margin-top: 20%; }
+
+/* video youtube */
+.videoYoutube {
+  width: 30%;
+  height: 0px;
+  margin: auto;
+  padding: 30%;
+  align-items: center;
+  position: relative; }
+
+.videoYoutube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%; }
+
+/* diseño resposive celular/tablet */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .col-remeras {
+    padding-left: 130px;
+    padding-right: 130px; }
+  .logo-inicio {
+    padding-top: 1000px; }
+  .body-index {
+    background: linear-gradient(to bottom, black 0%, black 20%, black 26%, black 42%, #4a4a4a 60%); }
+  .foto-inicio {
+    background-image: url(https://i.pinimg.com/originals/44/be/30/44be3088d1ccfa965a79bc950ca94e51.jpg);
+    background-position: center top; }
+  .foto-conocelos {
+    background-image: url(https://i.pinimg.com/564x/c2/3b/4f/c23b4fd1c4a688e7afd8b4e15768c3b5.jpg);
+    background-position: center top; }
+  .foto-somos {
+    background-image: url(https://i.pinimg.com/564x/fb/8e/52/fb8e52935db12bdee81d408206b95042.jpg);
+    background-position: center top; }
+  .foto-productos {
+    background-position: center top; }
+  .conocelos-responsive {
+    padding-top: 500px; }
+  .m-disc {
+    padding-top: 700px; }
+  h1 {
+    font-size: 40px; }
+  h2 {
+    font-size: 40px; }
+  .origen-banda {
+    padding: 0; }
+  p {
+    font-size: 10px; }
+  .videoYoutube {
+    width: 30%;
+    height: 0px;
+    margin: auto;
+    padding: 30%;
+    align-items: center;
+    position: relative; }
+  .videoYoutube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%; }
+  .img-none {
+    display: none; } }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* tarjetas discografia */
+  .tarjetas-disc {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    align-items: center; } }
+
+/* diseño responsive tablets/pc */
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+  .body-index {
+    background: linear-gradient(to bottom, black 0%, black 20%, black 26%, black 42%, #191919 47%, #363535 60%, #3b3939 66%); }
+  .foto-inicio {
+    background-image: url(https://i.pinimg.com/originals/44/be/30/44be3088d1ccfa965a79bc950ca94e51.jpg);
+    background-position: center top; }
+  .foto-conocelos {
+    background-image: url(https://www.laxmasmusica.com/uploads/newsarticle/9581eb2c10544fb58d0485acc75ec4db/Metallica.jpg);
+    background-position: center top; }
+  .foto-somos {
+    background-position: center top; }
+  .foto-productos {
+    background-position: center top; }
+  .conocelos-responsive {
+    padding-top: 700px; }
+  .index-responsive {
+    padding-top: 400px; }
+  .m-disc {
+    padding-top: 400px; }
+  h2 {
+    font-size: 40px; }
+  .origen-banda {
+    padding: 0; }
+  p {
+    font-size: 20px; }
+  .videoYoutube {
+    width: 30%;
+    height: 0px;
+    margin: auto;
+    padding: 30%;
+    text-align: center;
+    position: relative; }
+  .videoYoutube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%; }
+  .img-none {
+    display: none; } }
+
+/* mixin */
+.foto-album:hover {
+  transform: scale(1.2); }
+
+.origen-banda, .info-met {
+  color: black;
+  font-size: 'Cinzel', serif; }
+
+.main-productos, .separacion-entradas {
+  padding-top: 500px; }
+
+.origen-banda {
+  padding-left: 130px;
+  padding-right: 130px; }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .origen-banda {
+    padding-left: 30px;
+    padding-right: 30px; } }
+
+/* cards de productos */
+.tamaño-card {
+  height: 300px;
+  width: 210px;
+  border: none;
+  margin-top: 100px;
+  align-items: center; }
+
+.tamaño-img {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #EBEBEB; }

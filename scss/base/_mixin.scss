@@ -1,0 +1,8 @@
+/* mixin */
+
+@mixin animaciones ($transformaciones) {
+    transform: $transformaciones;
+}
+.foto-album:hover{
+    @include animaciones(scale(1.2))
+}

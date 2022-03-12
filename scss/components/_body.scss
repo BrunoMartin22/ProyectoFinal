@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* fondo de la pagina */
+.body-index{
+    background: radial-gradient(circle, rgba(74,74,74,1) 0%, rgba(61,61,61,1) 21%, rgba(47,47,47,1) 26%, rgba(29,29,29,1) 35%);
+}
+.body-conocelos{
+    background-image:linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 27%, rgba(255,255,255,1) 32%, rgba(238,236,236,1) 40%, rgba(126,126,126,1) 100%); ;
+}
+.body-disc{
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(56,56,56,1) 26%, rgba(110,110,110,1) 42%, rgba(212,210,210,1) 60%);
+}
+/* fotos del header de las pags */
+.foto-inicio{
+    background-image: url(https://www.metallica.com/on/demandware.static/-/Sites-Metallica-Library/default/dwa8442759/images/homepage/home-hero-aftershock.jpg);
+    background-repeat: no-repeat;
+    padding-left:0;
+}
+.foto-conocelos{
+    background-image: url(https://metallica-res.cloudinary.com/image/upload/f_auto,q_auto:best,c_fill,dpr_2.0,e_sharpen:60,g_auto:subject/v1/images/heroes/media/photos-header.jpg);
+    background-repeat: no-repeat;
+}
+.foto-somos{
+    background-image: url(https://www.metallica.com/dw/image/v2/BCPJ_PRD/on/demandware.static/-/Sites-Metallica-Library/default/dwd536fbc9/images/heroes/tour/tour-hero.jpg?sw=1920&sh=504&sm=cut&sfrm=jpg&q=95);
+    background-repeat: no-repeat;
+}
+.foto-productos{
+    background-image: url(https://www.metallica.com/on/demandware.static/-/Sites/default/dwc45f1b18/images/slot/store-hero_20190114.jpg);
+    background-repeat: no-repeat;
+}
+/* logos de las pags metallica */
+.logo-inicio{
+    text-align: center;
+    padding-top: 50%;
+}
+.logo-conocelos{
+    text-align: center;
+    padding-top: 15%;
+}
+/* carrousel */
+.carrousel-main{
+    padding-top: 5%;
+}
+/* nadvar y tarjetas */
+.dropdown-menu{
+    background-color: #E7E7E7 ;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-family:'Cinzel', serif ;
+}
+.color-tarjetas{
+    background-color: #474554 ;
+    text-align: center;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+h2{
+    color: #09090b ;
+    text-align: center;
+    font-size: 60px;
+    font-family:'Cinzel', serif ;
+    padding-top: 200px;
+    font-weight: bold;
+}
+/* remeras y guitarras pasar de pagina */
+.cambio-paginas{
+    margin-top: 150px;
+    padding-bottom: 100px;
+}

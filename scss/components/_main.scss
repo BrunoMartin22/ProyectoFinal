@@ -1,0 +1,198 @@
+/* logo metallica */
+.logo-inicio{
+    text-align: center;
+    padding-top: 50%;
+}
+.logo-banner{
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-family:'Cinzel', serif;
+}
+/* img de las tarjetas del index */
+.img-tarjetas{
+    padding-top: 10px;
+    text-align: center;
+}
+.img-1{
+    padding-top: 60px;
+}
+.img-2{
+    padding-top: 35px;
+}
+.img-3{
+    padding-top: 40px;
+}
+.m-disc{
+    padding-top: 400px;
+}
+/* tarjetas discografia */
+.tarjetas-disc{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+.sep-tarj{
+    margin-right: 20px;
+}
+/* colores nav */
+.color-g{
+    background-color:#232323 ;
+}
+.color-navc{
+    background-color:#E7E7E7 ;
+}
+/* contenedor de conocelos */
+.fondo-prueba{
+    margin-top: 20%;
+}
+
+/* video youtube */
+.videoYoutube{
+    width: 30%;
+    height: 0px;
+    margin: auto;
+    padding: 30%;
+    align-items: center;
+    position: relative;
+}
+.videoYoutube iframe{
+position: absolute;
+top: 0;
+left: 0;
+width: 90%;
+height: 90%;
+}
+/* diseño resposive celular/tablet */
+@media screen and (min-width:320px) and (max-width:768px){
+    .col-remeras{
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .logo-inicio{
+        padding-top: 1000px;
+    }
+    .body-index{
+        background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 26%, rgba(0,0,0,1) 42%, rgba(74,74,74,1) 60%);
+    }
+    .foto-inicio{
+        background-image: url(https://i.pinimg.com/originals/44/be/30/44be3088d1ccfa965a79bc950ca94e51.jpg);
+        background-position:center top;
+    }
+    .foto-conocelos{
+        background-image: url(https://i.pinimg.com/564x/c2/3b/4f/c23b4fd1c4a688e7afd8b4e15768c3b5.jpg);
+        background-position:center top;
+    }
+    .foto-somos{
+        background-image: url(https://i.pinimg.com/564x/fb/8e/52/fb8e52935db12bdee81d408206b95042.jpg);
+        background-position:center top;
+    }
+    .foto-productos{
+        background-position: center top;
+    }
+    .conocelos-responsive{
+        padding-top: 500px;
+    }
+    .m-disc{
+        padding-top: 700px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .origen-banda{
+        padding: 0;
+    }
+    p{
+        font-size: 10px;
+    }
+    .videoYoutube{
+        width: 30%;
+        height: 0px;
+        margin: auto;
+        padding: 30%;
+        align-items: center;
+        position: relative;
+    }
+    .videoYoutube iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    }
+
+    .img-none{
+        display: none;
+    }  
+}
+@media screen and (min-width:768px) and (max-width:1200px){
+    /* tarjetas discografia */
+    .tarjetas-disc{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+}
+/* diseño responsive tablets/pc */
+@media screen and (min-width:768px) and (max-width:1600px){
+    .body-index{
+        background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 26%, rgba(0,0,0,1) 42%, rgba(25,25,25,1) 47%, rgba(54,53,53,1) 60%, rgba(59,57,57,1) 66%);
+    }
+    .foto-inicio{
+        background-image: url(https://i.pinimg.com/originals/44/be/30/44be3088d1ccfa965a79bc950ca94e51.jpg);
+        background-position:center top;
+    }
+    .foto-conocelos{
+        background-image: url(https://www.laxmasmusica.com/uploads/newsarticle/9581eb2c10544fb58d0485acc75ec4db/Metallica.jpg);
+        background-position:center top;
+    }
+    .foto-somos{
+        background-position:center top;
+    }
+    .foto-productos{
+        background-position: center top;
+    }
+    .conocelos-responsive{
+        padding-top: 700px;
+    }
+    .index-responsive{
+        padding-top: 400px;
+    }
+    .m-disc{
+        padding-top: 400px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .origen-banda{
+        padding: 0;
+    }
+    p{
+        font-size: 20px;
+    }
+    .videoYoutube{
+        width: 30%;
+        height: 0px;
+        margin: auto;
+        padding: 30%;
+        text-align: center;
+        position: relative;
+    }
+    .videoYoutube iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    }
+    .img-none{
+        display: none;
+    } 
+}

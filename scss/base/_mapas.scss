@@ -1,0 +1,21 @@
+$card:(
+    height-card:300px,
+    width-card:210px,
+);
+
+$img-card:(
+    height-widht:300px,
+);
+/* cards de productos */
+.tamaño-card{
+    height: map-get($map: $card, $key:height-card );
+    width: map-get($map: $card, $key:width-card );
+    border: none;
+    margin-top: 100px;
+    align-items: center;
+}
+.tamaño-img{
+    height: map-get($map: $img-card, $key:height-widht );
+    width: map-get($map: $img-card, $key:height-widht );
+    border: 1px solid #EBEBEB;
+}
